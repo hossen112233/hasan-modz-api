@@ -144,7 +144,7 @@ function TOGGLE_STRIKER_POSE()
 end
 
 function Exit()
-    gg.toast("♻️ 𝗧𝗛𝗜𝗦 𝗦𝗖𝗥𝗜𝗣𝗧 𝗖𝗔𝗡 𝗕𝗘 𝗥𝗘𝗨𝗦𝗘𝗗 ♻️")
+    gg.toast("♻️ 𝗧𝗛𝗜𝗦 𝗦𝗖𝗥𝗜??𝗧 𝗖𝗔𝗡 𝗕𝗘 𝗥𝗘𝗨𝗦𝗘𝗗 ♻️")
     os.exit()
 end
 
@@ -153,7 +153,7 @@ function HOME()
     local strikerPoseStatus = STATE_STRIKER_POSE and " [ 🟢 ON ]" or " [ 🔴 OFF ]"
 
     local SN = gg.choice({
-        "◈🟩◈ 𝗔𝗟𝗟 𝗛𝗔𝗖𝗞 𝗔𝗖𝗧𝗜𝗩𝗔𝗧𝗘𝗗 ◈🟩◈",
+        "◈🟩◈ 𝗔𝗟𝗟 𝗛𝗔𝗖?? 𝗔𝗖𝗧𝗜𝗩𝗔𝗧𝗘𝗗 ◈🟩◈",
         "🐉▰◈ 𝗗𝗥𝗔𝗚𝗢𝗡 𝗨𝗟𝗧𝗥𝗔 𝗙𝗢𝗥𝗖𝗘 ◈▰🐉" .. dragonStatus,
         "🎯▰◈ 𝗦𝗧𝗥𝗜𝗞𝗘𝗥 𝗣𝗢𝗦𝗘 ◈▰🎯" .. strikerPoseStatus,
         "❌▰◈ 𝗘𝗫𝗜𝗧 ◈▰❌\\n\\n═══════════════════════════\\n             𝗖𝗟𝗘𝗔𝗡 𝗔𝗡𝗗 𝗥𝗘𝗙𝗥𝗘𝗦𝗛\\n═══════════════════════════" 
